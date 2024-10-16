@@ -14,18 +14,27 @@
     width: 1500px;
     color: white;
     background-color: rgb(15 23 42);
+   
  
-    
+    .col-6{
+      width: calc(100%/12*6);
+      
+    }
     
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+   
+  
 }
 #portfolio{
   background-color: rgb(15 23 42);
+ 
   
-
+.text-informations{
+  padding: 80px 0;
+}
 }
 .text-informations-fields{
     
@@ -33,10 +42,8 @@
       
 }
 .text-name{
-    padding: 0 100px;
-    
-  
-  }
+    padding: 80px 100px;
+   }
   .text-informations-fields {
     display: flex;
     gap: 10px;
@@ -46,6 +53,7 @@
     a{
         display: flex;
         flex-direction: column;
+        line-height: 30px;
     }
   }
  
@@ -56,12 +64,12 @@
    
     white-space: nowrap;
 
-   /* Mətnin bir sətirdə qalmasını təmin etmək üçün */
+
 }
 
 .informations-experience-flex {
   display: flex;
- gap: 50px; /* Tarix və mətn arasında boşluq */
+ gap: 50px; 
  padding: 30px 0;
   
 }
@@ -69,7 +77,7 @@
 
 .text-informations-fields  {
   h5{
-    background-color: #041426; /* Mavi düymələr üçün fon rəngi */
+    background-color: #041426; 
     padding: 5px;
     border-radius: 5px;
     color: rgb(20, 243, 236);
