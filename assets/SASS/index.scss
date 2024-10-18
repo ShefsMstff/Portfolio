@@ -1,99 +1,104 @@
+@import './partial/home/portofilo';
 @import './helpers/variables';
-@import './helpers/mixins';
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    font-weight:700;
-}
-.container{
-    margin: 0 auto;
-    width: 1500px;
-    color: white;
-    background-color: rgb(15 23 42);
-   
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
  
-    .col-6{
-      width: calc(100%/12*6);
-      
-    }
-    
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-   
-  
+.container {
+  margin: 0 auto;
+  width: 1500px;
+  color:$text-color;
 }
-#portfolio{
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#portfolio {
   background-color: rgb(15 23 42);
- 
-  
-.text-informations{
-  padding: 80px 0;
-}
-}
-.text-informations-fields{
-    
-        display: flex;
-      
-}
-.text-name{
+.text-name {
     padding: 80px 100px;
-   }
+    position: fixed;
+  }
+.page-partials {
+    a {
+      display: flex;
+      flex-direction: column;
+      line-height: 30px;
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+.site-socialmedia-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 140px;
+i {
+      color: rgb(171, 173, 176);
+      ;
+    }
+  }
+
+.text-informations {
+    padding: 80px 0;
+  }
+.text-informations-experience {
+    padding: 30px;
+
+    .informations-experience-flex {
+      display: flex;
+      gap: 50px;
+      padding: $main-padding;
+ .text-informations-date {
+        white-space: nowrap;
+      }
+.text-informations-icon {
+        display: flex;
+        gap: $main-gap; 
+ .icon-text {
+          display: flex;
+          gap: 5px;
+        }
+      }
+    }
+  }
   .text-informations-fields {
     display: flex;
-    gap: 10px;
-   
-  }
-  .page-partials{
-    a{
-        display: flex;
-        flex-direction: column;
-        line-height: 30px;
+    gap: $main-gap;
+    flex-wrap: wrap;
+
+    h5 {
+      background-color: black;
+      padding: 5px;
+      border-radius: 5px;
+      color:$primary-color;
+      font-size: 15px;
     }
   }
- 
-
- 
-
-.text-informations-date  {
-   
-    white-space: nowrap;
-
-
-}
-
-.informations-experience-flex {
-  display: flex;
- gap: 50px; 
- padding: 30px 0;
-  
-}
-
-
-.text-informations-fields  {
-  h5{
-    background-color: #041426; 
-    padding: 5px;
-    border-radius: 5px;
-    color: rgb(20, 243, 236);
-  }
-
-}
-
-  .informations-projects-flex{
+.informations-projects-flex {
     display: flex;
     gap: 30px;
-    .informations-projects-image{
-
-img{
-  width: 120px;
-height: auto;
-
-}
+    padding:$main-padding;
+.informations-projects-image {
+      img {
+        width: 120px;
+        height: auto
+      }
     }
   }
+}
+
+
+
+
+
