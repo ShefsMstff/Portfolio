@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+  }
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .all-projects-header{
+    padding: 50px 0;
+    h1{
+        font-size: 50px;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        h3{
+            color: aqua;
+        }
+
+    }
+  }
+  #all-projects{
+    background-color: rgb(15, 23, 42);
+    padding: 100px 0;
+    .all-projects-flex {
+        display: flex;
+        color: white;
+       padding: 30px 0;
+      
+
+        .all-projects-year
+        {
+           width: 10%;
+         }
+        
+         .all-projects-name,
+         .all-projects-link,
+         .all-projects-made
+          {
+           width: 20%;
+         }
+         .all-projects-name{
+            h6{
+               
+                font-weight: bold;
+            }
+           
+         }
+         .all-projects-built{
+           width: 30%;
+           display: flex;
+           gap: 10px;
+           flex-wrap: wrap; 
+          
+           h6{
+            background-color: rgb(16, 47, 15);
+           border-radius: 10px;
+           height: 30px; 
+          padding: 5px;
+        display: flex;
+        align-items: center;
+
+          
+            color:aqua;
+            font-size: 15px;
+            
+        } 
+         }
+
+         .all-projects-link{
+            a{
+                text-decoration: none;
+           }
+            p{
+                color: rgb(193, 189, 189);
+                &:hover{
+                   color: aqua;
+                }
+            }
+
+         }
+       
+      }
+      hr {
+       
+        border-top: 1px solid rgb(53, 53, 82); 
+        margin: 1px 0; 
+    }
+   
+  }
+ 
+
+
+    
+   
+  
+
+
+  

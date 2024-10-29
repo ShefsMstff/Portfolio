@@ -1,110 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/SASS/index.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="./assets/js/main.js" defer></script>
-        <title>Document</title>
+    <title>Document</title>
 </head>
-<body >
-    <div class="pointer-events-none fixed inset-0 z-30 transition duration-300" id="gradient-overlay"></div>
-<main>
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="text-name">
-                        <h1>Brittany Chiang</h1>
-                        <h5>Senior Frontend Engineer</h5>
-                        <p>I build pixel-perfect, engaging</p>
-                        <div class="page-partials">
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Experience</a></li>
-                                <li><a href="#">Projects</a></li>
-                            </ul>
-                        </div>
-                        <div class="site-socialmedia-icons">
-                            <a href=""><i class="bi bi-github"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-box-fill"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-google"></i></a>
+
+<body>
+    <div class="pointer-events-none fixed inset-0 z-30 transition duration-300" id="light"></div>
+
+    <main>
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="text-name">
+                            <h1>Brittany Chiang</h1>
+                            <h5>Senior Frontend Engineer</h5>
+                            <p>I build pixel-perfect, engaging</p>
+                            <div class="page-partials">
+                                <ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#about" id="aboutLink" class="diactive-Links"><span class="diactive-span"></span>ABOUT</a>
+                                        </li>
+                                        <li>
+                                            <a href="#experience" id="experienceLink" class="diactive-Links"><span class="diactive-span"></span>EXPERIENCE</a>
+                                        </li>
+                                        <li>
+                                            <a href="#projects" id="projectsLink" class="diactive-Links"><span class="diactive-span"></span>PROJECTS</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="site-socialmedia-icons">
+                                <a href=""><i class="bi bi-github"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href=""><i class="bi bi-box-fill"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-twitter-x"></i></a>
+                                <a href=""><i class="bi bi-google"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="text-informations">
-                        <div id="about" class="text-informations-about active">
-                            <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head
-                                first into the rabbit hole of coding and web development. Fast-forward to today, and
-                                I’ve had the privilege of building software for an <a href="https://us.mullenlowe.com/">advertising agency</a>, a <a href="https://starry.com/">start-up</a>, <a href="https://www.apple.com/apple-music/">a
-                                    huge corporation</a>, and <a href="https://upstatement.com/">a digital product studio.</a></p>
-                            <p>My main focus these days is building accessible user interfaces for our customers at
-                                <a href="https://www.klaviyo.com/">Klaviyo</a>. I most enjoy building software in the sweet spot where design and engineering
-                                meet — things that look good but are also built well under the hood. In my free time,
-                                I've also released an <a href="https://www.newline.co/courses/build-a-spotify-connected-app">online video course</a> that covers everything you need to know to
-                                build a web app with the Spotify API.</p>
-                            <p>When I'm not at the computer, I'm usually rock climbing, reading, hanging out with my
-                                wife and two cats, or running around Hyrule searching for Korok seeds.</p>
-                        </div>
-                        <div id="experience" class="text-informations-experience">
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>2024-present</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
+                    <div class="col-6">
+                        <div class="text-informations">
+                            <div id="about" class="text-informations-about active">
+                                <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled
+                                    head
+                                    first into the rabbit hole of coding and web development. Fast-forward to today, and
+                                    I’ve had the privilege of building software for an <a
+                                        href="https://us.mullenlowe.com/">advertising agency</a>, a <a
+                                        href="https://starry.com/">start-up</a>, <a
+                                        href="https://www.apple.com/apple-music/">a
+                                        huge corporation</a>, and <a href="https://upstatement.com/">a digital product
+                                        studio.</a></p>
+                                <p>My main focus these days is building accessible user interfaces for our customers at
+                                    <a href="https://www.klaviyo.com/">Klaviyo</a>. I most enjoy building software in
+                                    the sweet spot where design and engineering
+                                    meet — things that look good but are also built well under the hood. In my free
+                                    time,
+                                    I've also released an <a
+                                        href="https://www.newline.co/courses/build-a-spotify-connected-app">online video
+                                        course</a> that covers everything you need to know to
+                                    build a web app with the Spotify API.
+                                </p>
+                                <p>When I'm not at the computer, I'm usually rock climbing, reading, hanging out with my
+                                    wife and two cats, or running around Hyrule searching for Korok seeds.</p>
+                            </div>
+                            <div id="experience" class="text-informations-experience">
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>2024-present</p>
+                                    </div>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>2018-2024</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
-                                        <h5>nodejs</h5>
-                                        <h5>nextjs</h5>
-                                        <h5>html&scss</h5>
-                                        <h5>php</h5>
-                                        <h5>css</h5>
-                                        <h5>contentful</h5>
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>2018-2024</p>
+                                    </div>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                            <h5>nodejs</h5>
+                                            <h5>nextjs</h5>
+                                            <h5>html&scss</h5>
+                                            <h5>php</h5>
+                                            <h5>css</h5>
+                                            <h5>contentful</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>july-dec 17</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>july-dec 17</p>
+                                    </div>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
                                         <div class="text-informations-icon">
                                             <div class="icon-text">
                                                 <p>MusicKit.js</p>
@@ -119,175 +139,177 @@
                                                 <i class="bi bi-link-45deg"></i>
                                             </div>
                                         </div>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>2016-2017</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>july-dec 2016</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-icon">
-                                        <div class="icon-text">
-                                            <p>Android.App</p>
-                                            <i class="bi bi-link-45deg"></i>
-                                        </div>
-                                        <div class="icon-text">
-                                            <p>ScreenTime 2.0</p>
-                                            <i class="bi bi-link-45deg"></i>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
                                         </div>
                                     </div>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
+                                </div>
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>2016-2017</p>
+                                    </div>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="informations-experience-flex">
-                                <div class="text-informations-date">
-                                    <p>july-dec 2015</p>
-                                </div>
-                                <div class="text-informations-action">
-                                    <h5>Senior Frontend Engineer</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>july-dec 2016</p>
+                                    </div>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-icon">
+                                            <div class="icon-text">
+                                                <p>Android.App</p>
+                                                <i class="bi bi-link-45deg"></i>
+                                            </div>
+                                            <div class="icon-text">
+                                                <p>ScreenTime 2.0</p>
+                                                <i class="bi bi-link-45deg"></i>
+                                            </div>
+                                        </div>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="site-links">
-                            <a href="#">
-                                <h6>View Full Project Resume</h6>
-                            </a>
-                        </div>
-                        <div id="projects" class="text-informations-projects">
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img1.webp">
-                                </div>
-                                <div class="informations-projects-body">
-                                    <h5>spotify profile</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                               </div>
-                            </div>
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img2.webp">
-                                </div>
-                                <div class="informations-projects-body">
-                                    <h5>spotify profile</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <p>657</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img3.webp">
-                                </div>
-                                <div class="informations-projects-body">
-                                    <h5>spotify profile</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                        <span>100k+installs</span>
+                                <div class="informations-experience-flex">
+                                    <div class="text-informations-date">
+                                        <p>july-dec 2015</p>
                                     </div>
-                            </div>
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img4.webp">
-                                </div>
-                                <div class="informations-projects-body">
-                                    <h5>spotify profile</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
-                                        tumbled head first into the rabbit hole of coding and web development.
-                                        Fast-forward to today,</p>
-                                    <div class="text-informations-fields">
-                                        <h5>jvascript</h5>
-                                        <h5>typescript</h5>
-                                        <h5>react</h5>
-                                        <h5>storybook</h5>
+                                    <div class="text-informations-action">
+                                        <h5>Senior Frontend Engineer</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="site-links">
-                                <a href="">
-                                    <h6>View Full Project Resume</h6>
+                                <a href="#">
+                                    <h6>View Full Resume</h6>
                                 </a>
                             </div>
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img5.webp">
+                            <div id="projects" class="text-informations-projects">
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img1.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>spotify profile</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                    </div>
                                 </div>
-                                <div class="informations-projects-body">
-                                    <h5>2020</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes </p>
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img2.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>spotify profile</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <p>657</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img3.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>spotify profile</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <span>100k+installs</span>
+                                    </div>
+                                </div>
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img4.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>spotify profile</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and
+                                            tumbled head first into the rabbit hole of coding and web development.
+                                            Fast-forward to today,</p>
+                                        <div class="text-informations-fields">
+                                            <h5>jvascript</h5>
+                                            <h5>typescript</h5>
+                                            <h5>react</h5>
+                                            <h5>storybook</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="site-links">
+                                    <a href="./allprojects.html">
+                                        <h6>View Full Project Archive</h6>
+                                    </a>
+                                </div>
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img5.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>2020</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes </p>
+                                    </div>
+                                </div>
+                                <div class="informations-projects-flex">
+                                    <div class="informations-projects-image">
+                                        <img src="./assets/images/img6.webp">
+                                    </div>
+                                    <div class="informations-projects-body">
+                                        <h5>2019</h5>
+                                        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="informations-projects-flex">
-                                <div class="informations-projects-image">
-                                    <img src="./assets/images/img6.webp">
-                                </div>
-                                <div class="informations-projects-body">
-                                    <h5>2019</h5>
-                                    <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes </p>
-                                </div>
+                            <div class="text-information-footer">
+                                <p>Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with
+                                    Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter
+                                    typeface.
+                                </p>
+
                             </div>
-                        </div>
-                        <div class="text-information-footer">
-                            <p>Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with
-                                Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 </body>
 
 </html>

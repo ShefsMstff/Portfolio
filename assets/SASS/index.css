@@ -1,3 +1,195 @@
+@charset "UTF-8";
+#portfolio {
+  background-color: rgb(15, 23, 42);
+}
+#portfolio .text-name {
+  padding: 80px 100px;
+  position: fixed;
+}
+#portfolio .page-partials {
+  padding: 30px 0;
+}
+#portfolio .page-partials ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#portfolio .page-partials a {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding: 0 80px;
+}
+#portfolio .page-partials a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: white;
+}
+#portfolio .site-socialmedia-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  position: fixed;
+  bottom: 140px;
+}
+#portfolio .site-socialmedia-icons i {
+  color: rgb(171, 173, 176);
+}
+#portfolio .text-informations {
+  padding: 80px 0;
+  color: rgb(195, 205, 214);
+}
+#portfolio .text-informations .text-informations-about a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#portfolio .text-informations .text-informations-about a:hover {
+  color: aqua;
+}
+#portfolio .text-informations-experience {
+  padding: 30px;
+}
+#portfolio .text-informations-experience .informations-experience-flex {
+  display: flex;
+  gap: 50px;
+  padding: 30px 0;
+}
+#portfolio .text-informations-experience .informations-experience-flex:hover {
+  background-color: rgba(74, 106, 144, 0.1);
+  border-radius: 10px;
+}
+#portfolio .text-informations-experience .informations-experience-flex .text-informations-date {
+  white-space: nowrap;
+}
+#portfolio .text-informations-experience .informations-experience-flex .text-informations-icon {
+  display: flex;
+  gap: 10px;
+}
+#portfolio .text-informations-experience .informations-experience-flex .text-informations-icon .icon-text {
+  display: flex;
+  gap: 5px;
+}
+#portfolio .text-informations-fields {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#portfolio .text-informations-fields h5 {
+  background-color: rgb(16, 47, 15);
+  padding: 5px;
+  border-radius: 10px;
+  color: aqua;
+  font-size: 15px;
+}
+#portfolio .informations-projects-flex {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+}
+#portfolio .informations-projects-flex .informations-projects-image img {
+  width: 120px;
+  height: auto;
+}
+
+.site-links h6 {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .text-name h1 {
+    font-size: 1.8rem; /* Mobil cihazlarda daha kiçik başlıq ölçüsü */
+  }
+  .col-6 {
+    width: 100%; /* Mobil cihazlarda iki sütun əvəzinə tam genişlik */
+  }
+  .site-socialmedia-icons a {
+    margin: 0 5px; /* İkonları daha kiçik boşluqla göstərmək */
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.all-projects-header {
+  padding: 50px 0;
+}
+.all-projects-header h1 {
+  font-size: 50px;
+  color: white;
+}
+.all-projects-header a {
+  text-decoration: none;
+}
+.all-projects-header a h3 {
+  color: aqua;
+}
+
+#all-projects {
+  background-color: rgb(15, 23, 42);
+  padding: 100px 0;
+}
+#all-projects .all-projects-flex {
+  display: flex;
+  color: white;
+  padding: 30px 0;
+}
+#all-projects .all-projects-flex .all-projects-year {
+  width: 10%;
+}
+#all-projects .all-projects-flex .all-projects-name,
+#all-projects .all-projects-flex .all-projects-link,
+#all-projects .all-projects-flex .all-projects-made {
+  width: 20%;
+}
+#all-projects .all-projects-flex .all-projects-name h6 {
+  font-weight: bold;
+}
+#all-projects .all-projects-flex .all-projects-built {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#all-projects .all-projects-flex .all-projects-built h6 {
+  background-color: rgb(16, 47, 15);
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: aqua;
+  font-size: 15px;
+}
+#all-projects .all-projects-flex .all-projects-link a {
+  text-decoration: none;
+}
+#all-projects .all-projects-flex .all-projects-link p {
+  color: rgb(193, 189, 189);
+}
+#all-projects .all-projects-flex .all-projects-link p:hover {
+  color: aqua;
+}
+#all-projects hr {
+  border-top: 1px solid rgb(53, 53, 82);
+  margin: 1px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,137 +209,11 @@
   flex-wrap: wrap;
 }
 
-#gradient-overlay {
+#light {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-}
-
-#portfolio {
-  background-color: rgb(15, 23, 42);
-}
-
-#portfolio .text-name {
-  padding: 80px 100px;
-  position: relative;
-}
-
-#portfolio .page-partials {
-  padding: 30px 0;
-}
-
-#portfolio .page-partials ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#portfolio .page-partials a {
-  display: flex;
-  flex-direction: column;
-  line-height: 30px;
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-  padding: 0 80px;
-}
-
-#portfolio .page-partials a:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background: white;
-}
-
-#portfolio .site-socialmedia-icons {
-  display: flex;
-  gap: 20px;
-  font-size: 30px;
-  position: fixed;
-  bottom: 140px;
-}
-
-#portfolio .site-socialmedia-icons i {
-  color: rgb(171, 173, 176);
-}
-
-#portfolio .text-informations {
-  padding: 80px 0;
-  color: rgb(195, 205, 214);
-}
-
-#portfolio .text-informations .text-informations-about a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-#portfolio .text-informations .text-informations-about a:hover {
-  color: aqua;
-}
-
-#portfolio .text-informations-experience {
-  padding: 30px;
-}
-
-#portfolio .text-informations-experience .informations-experience-flex {
-  display: flex;
-  gap: 50px;
-  padding: 30px 0;
-}
-
-#portfolio .text-informations-experience .informations-experience-flex:hover {
-  background-color: rgba(74, 106, 144, 0.1);
-  border-radius: 10px;
-}
-
-#portfolio .text-informations-experience .informations-experience-flex .text-informations-date {
-  white-space: nowrap;
-}
-
-#portfolio .text-informations-experience .informations-experience-flex .text-informations-icon {
-  display: flex;
-  gap: 10px;
-}
-
-#portfolio .text-informations-experience .informations-experience-flex .text-informations-icon .icon-text {
-  display: flex;
-  gap: 5px;
-}
-
-#portfolio .text-informations-fields {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-#portfolio .text-informations-fields h5 {
-  background-color: rgb(16, 47, 15);
-  padding: 5px;
-  border-radius: 10px;
-  color: aqua;
-  font-size: 15px;
-}
-
-#portfolio .informations-projects-flex {
-  display: flex;
-  gap: 30px;
-  padding: 30px 0;
-}
-
-#portfolio .informations-projects-flex .informations-projects-image img {
-  width: 120px;
-  height: auto;
-}
-
-.site-links h6 {
-  color: white;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
